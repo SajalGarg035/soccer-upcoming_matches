@@ -15,11 +15,7 @@ A live, interactive dashboard to browse upcoming soccer fixtures, filter by leag
    ```bash
    npm install
    ```
-3. Create a `.env` in the project root:  
-   ```
-   FOOTBALL_API_KEY=your_api_token_here
-   ```
-4. Start backend & frontend in separate shells:  
+3. Start backend & frontend in separate shells:  
    ```bash
    npm run server   # Backend API → http://localhost:3001
    npm run dev      # Frontend      → http://localhost:5173

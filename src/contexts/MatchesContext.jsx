@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 const MatchesContext = createContext(undefined);
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://soccer-upcoming-matches.onrender.com/api';
 
 export const MatchesProvider = ({ children }) => {
   const [matches, setMatches] = useState([]);
