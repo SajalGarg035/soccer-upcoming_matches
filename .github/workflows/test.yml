@@ -11,14 +11,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
-    
     steps:
     - uses: actions/checkout@v4
     
-    
-    - name: Build application
-      run: npm run build
-    
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a message
+        run: echo "Hello! This is a push event."
+
